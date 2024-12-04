@@ -1,0 +1,45 @@
+nav ul{
+    display: flex;    /*permet d'aligne les elements*/
+    list-style-type: none;   /*enleve les points sur les listes*/
+    justify-content: center;  /*permets de centre*/
+    gap: 20px; /*permet de mettre des espaces*/
+}
+nav a{
+     /*empecher les liens d'etre soulignes*/
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    color: brown;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 700px;
+    gap: 100px;
+}
+section{
+      /*marge exterieur du haut*/
+    margin-top: 50px;
+   
+}
+.presentation{
+    margin: auto;
+    text-align: center;
+}
+p{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    
+
+}
+h1{
+    font-size: 2em;
+}
+.im{
+    margin: auto;
+    max-width: 800px;
+    max-height: 100%;
+}
