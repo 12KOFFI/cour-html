@@ -8,6 +8,7 @@ nav a{
      /*empecher les liens d'etre soulignes*/
     text-decoration: none;
     color: black;
+    font-size: 30px;
 }
 nav a:hover{
     color: brown;
@@ -43,3 +44,50 @@ h1{
     max-width: 800px;
     max-height: 100%;
 }
+button{
+    color: white;
+    background-color: blue;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: inherit;
+    font-size: 20px;
+    } 
+    .but{
+        position: relative;
+        left: 450px;
+        bottom: 200px;
+    }
+   
+.container2{
+background-color: cornflowerblue;
+display: grid;
+grid-template-columns: 50% 50%;
+height: 700px;
+gap: 100px;
+}
+.butto2{
+    color: white;
+    background-color: blue;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: inherit;
+    font-size: 20px;
+    } 
+    .but2{
+        position: relative;
+        left: 1400px;
+        bottom: 200px;
+        }
+        .presentation2{
+            margin: auto;
+            text-align: center;
+            position: relative;
+            right: 200px;
+        }
+        .im2{
+            margin: auto;
+            max-width: 800px;
+            max-height: 100%;
+        }
